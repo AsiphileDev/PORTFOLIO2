@@ -1,0 +1,107 @@
+/* Fade In Animation */
+
+.fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+/* Slide From Left */
+
+.slide-left {
+    animation: slideLeft 1s ease;
+}
+
+@keyframes slideLeft {
+
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+
+/* Slide From Right */
+
+.slide-right {
+    animation: slideRight 1s ease;
+}
+
+@keyframes slideRight {
+
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+
+/* Floating Effect */
+
+.float {
+
+    animation: floating 3s infinite ease-in-out;
+
+}
+
+@keyframes floating {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
+/* Button Hover Animation */
+
+.btn:hover {
+
+    transform: scale(1.05);
+    transition: 0.3s ease;
+
+}
+
+
+/* Card Hover Animation */
+
+.skill-card:hover,
+.project-card:hover {
+
+    transform: translateY(-10px);
+    transition: 0.3s ease;
+
+}
