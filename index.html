@@ -4,28 +4,90 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Siyabonga Magagula | Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="js/script.js" defer></script>
+<script src="js/typing.js" defer></script>
+<script src="js/darkmode.js" defer></script>
 </head>
 <body>
-<header><div class="logo">SM</div><nav>
-<a href="#">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
-</nav></header>
-<section class="hero">
-<div class="hero-text">
+<header>
+<div class="logo">SM</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
+<button id="theme-toggle">🌙</button>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<div class="hero-content">
 <h3>Hello, I'm</h3>
 <h1>Siyabonga Magagula</h1>
-<h2>Full-Stack Developer<br>ICT Student at the University of Mpumalanga<br>Founder of Sibusisiwe Industries (PTY) LTD</h2>
-<p>I build modern websites, web applications and innovative digital solutions that solve real-world problems.</p>
+<h2 id="typing-text"></h2>
+<p>ICT Student at the University of Mpumalanga and Founder of Sibusisiwe Industries (PTY) LTD. I build websites, web applications and digital solutions that solve real-world problems.</p>
 <div class="buttons">
-<a class="btn" href="#projects">View Projects</a>
-<a class="btn-outline" href="#contact">Contact Me</a>
-</div></div>
-<div class="hero-image"><img src="images/profile.jpg" alt="Profile"></div>
+<a href="#projects" class="btn">View Projects</a>
+<a href="#contact" class="btn secondary">Hire Me</a>
+</div>
+</div>
+<div class="hero-image">
+<img src="images/profile.jpg" alt="Profile">
+</div>
 </section>
-<section id="about"><h2>About Me</h2><p>I am an ICT Student at the University of Mpumalanga with a passion for software engineering and entrepreneurship.</p></section>
-<section id="skills"><h2>Skills</h2><div class="skill-box">HTML CSS JavaScript React Git GitHub Networking</div></section>
-<section id="projects"><h2>Projects</h2><div class="project"><h3>LOCAL.TRAK</h3><p>Community reporting platform.</p></div></section>
-<section id="contact"><h2>Contact Me</h2></section>
-<footer><p>© 2026 Siyabonga Magagula.</p></footer>
-</body></html>
+
+<section id="about">
+<h2>About Me</h2>
+<p>I am an aspiring Full-Stack Developer and ICT Student at the University of Mpumalanga. My passion is building software that improves communities, businesses and everyday life. I founded Sibusisiwe Industries (PTY) LTD to develop innovative technology solutions for South Africa.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="cards">
+<div class="card">HTML5</div>
+<div class="card">CSS3</div>
+<div class="card">JavaScript</div>
+<div class="card">React</div>
+<div class="card">Node.js</div>
+<div class="card">Git</div>
+<div class="card">GitHub</div>
+<div class="card">Networking</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Featured Projects</h2>
+<div class="project-grid">
+<div class="project-card"><h3>LOCAL.TRAK</h3><p>Community reporting platform for service delivery issues.</p></div>
+<div class="project-card"><h3>EduTrak</h3><p>School communication and management platform.</p></div>
+<div class="project-card"><h3>ISP Business Roadmap</h3><p>Business planning and infrastructure project.</p></div>
+</div>
+</section>
+
+<section id="services">
+<h2>Services</h2>
+<div class="cards">
+<div class="card">Website Development</div>
+<div class="card">Web Applications</div>
+<div class="card">UI / UX Design</div>
+<div class="card">IT Support</div>
+<div class="card">Networking Solutions</div>
+<div class="card">Technology Consulting</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p>📞 +27 69 160 6123</p>
+<p>📧 Magagulasiyabonga772@gmail.com</p>
+<p>📷 Instagram: @Asiphile._</p>
+</section>
+
+<footer><p>© 2026 Siyabonga Magagula</p></footer>
+</body>
+</html>
