@@ -248,3 +248,59 @@ footer{
   color:var(--primary);
   text-decoration:none;
 }
+html{
+  scroll-behavior:smooth;
+}
+
+img{
+  max-width:100%;
+  display:block;
+}
+
+.fade-in{
+  opacity:0;
+  transform:translateY(40px);
+  transition:all .8s ease;
+}
+
+.fade-in.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.shadow{
+  box-shadow:0 15px 35px rgba(0,0,0,.35);
+}
+
+.rounded{
+  border-radius:20px;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.mt-2{margin-top:20px;}
+.mt-4{margin-top:40px;}
+.mb-2{margin-bottom:20px;}
+.mb-4{margin-bottom:40px;}
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#0D1117;
+}
+
+::-webkit-scrollbar-thumb{
+  background:var(--primary);
+  border-radius:20px;
+}
+
+::selection{
+  background:var(--primary);
+  color:#000;
+}
+
+/* End of style.css */
